@@ -6,6 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class Uzdevums2Application {
 
+    public static long TIME = System.currentTimeMillis();
+
     public static void main(String[] args) {
         SpringApplication.run(Uzdevums2Application.class, args);
     }
